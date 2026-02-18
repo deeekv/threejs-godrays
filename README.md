@@ -5,6 +5,7 @@ A focused, post-processing God Rays (light shafts) effect for Three.js, implemen
 This README gives context, quick getting-started steps, usage examples, and developer notes to help integrate or modify the shader.
 
 ## Table of contents
+- Live preview
 - Features
 - When to use
 - Quick start
@@ -13,6 +14,9 @@ This README gives context, quick getting-started steps, usage examples, and deve
 - Performance tips
 - Files of interest
 - Contributing
+
+## Live preview
+https://deeekv.github.io/threejs-godrays/
 
 ## Features
 - Radial sampling toward a virtual light origin to create rays

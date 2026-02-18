@@ -8,7 +8,7 @@ renderer.setClearColor(0x0a0a0a, 1);
 document.body.appendChild(renderer.domElement);
 
 const loader = new THREE.TextureLoader();
-const logoTexture = loader.load('/logo.png', (tex) => {
+const logoTexture = loader.load(`${import.meta.env.BASE_URL}logo.png`, (tex) => {
   material.uniforms.u_textureRatio.value = tex.image.width / tex.image.height;
   tex.wrapS = tex.wrapT = THREE.ClampToEdgeWrapping;
   tex.minFilter = THREE.LinearFilter;
